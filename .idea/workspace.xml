@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4961156b-a3ea-405e-b2ae-915c669b6311" name="Default Changelist" comment="伴生类和伴生对象">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ObjectClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/IfElse.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,16 +48,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ClassDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ObjectClass.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ObjectClass.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/IfElse.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="315">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -83,6 +92,7 @@
         <option value="$PROJECT_DIR$/scala_document/scriptFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ClassDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ObjectClass.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/IfElse.scala" />
       </list>
     </option>
   </component>
@@ -324,9 +334,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObjectClass">
+  <component name="RunManager" selected="Application.IfElse">
     <configuration name="ClassDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.b510.scalastudy.demo.ClassDemo" />
+      <module name="scala2_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.b510.scalastudy.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IfElse" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.b510.scalastudy.demo.IfElse" />
       <module name="scala2_study" />
       <extension name="coverage">
         <pattern>
@@ -373,6 +396,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IfElse" />
         <item itemvalue="Application.ObjectClass" />
         <item itemvalue="Application.ClassDemo" />
         <item itemvalue="Application.VarVal (1)" />
@@ -463,17 +487,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17631225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17631225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32907802" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" weight="0.42411348" />
       <window_info anchor="bottom" id="Terminal" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27951807" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27951807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,14 +618,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ClassDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ObjectClass.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/IfElse.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
