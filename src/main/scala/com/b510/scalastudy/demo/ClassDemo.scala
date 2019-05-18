@@ -23,6 +23,10 @@ class Person(xname: String, xage: Int) {
     println(this.name + " say 'Hello' to you.")
   }
 
+  // 我们可以直接在方法外调用println()方法
+  // 当我们new一个类的时候，除了方法不执行，其他都会执行
+  println("*****************************")
+
 }
 
 
