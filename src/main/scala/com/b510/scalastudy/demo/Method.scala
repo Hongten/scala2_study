@@ -34,10 +34,13 @@ object Method {
 
     // 偏应用
     // 多个日志在同一时间发生，我们只需要传入log信息，而时间信息不用传递
-    val myShowLogMethod = showLog(date:Date, _:String)
+    val myShowLogMethod = showLog(date: Date, _: String)
     myShowLogMethod("Tom buy car")
     myShowLogMethod("John click 'Add' button")
     myShowLogMethod("Divide click 'Login' button")
+
+    // 直接把函数名称作为参数传递
+    println(method("tom", add)) // tom's age is 7
 
   }
 
@@ -94,9 +97,24 @@ object Method {
   }
 
 
+  // 高阶函数
   // 偏应用函数
   def showLog(date: Date, log: String): Unit = {
     println(s"date is $date , $log")
   }
+
+  // 函数的参数是函数
+  def add(a: Int, b: Int): Int = {
+    a + b
+  }
+
+  // 把函数逻辑作为参数传递
+  // 方法的返回值由传递方法的逻辑决定
+  def method(name: String, fun: (Int, Int) => Int): String = {
+    def result = fun(2, 5)
+
+    name + "'s age is " + result
+  }
+
 
 }
