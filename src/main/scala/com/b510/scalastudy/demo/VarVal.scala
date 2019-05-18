@@ -5,6 +5,8 @@ package com.b510.scalastudy.demo
   * var a 定义变量 GC的时候，var变量不易被回收
   * val b 定义常量 推荐使用val，如果不使用常量了，GC的时候会回收该常量。val 是安全和增强代码可读性的
   *
+  * https://www.java67.com/2017/05/difference-between-var-val-and-def-in-Scala.html
+  *
   * @author Hongten
   * @date 18/05/2019
   */
