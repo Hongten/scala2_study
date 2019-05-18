@@ -42,6 +42,9 @@ object Method {
     // 直接把函数名称作为参数传递
     println(method("tom", add)) // tom's age is 7
 
+    // 嵌套函数
+    println(nestMethod("Tom", 12)("M")) // name : Tom, age : 12, gender : M
+
   }
 
   def max(a: Int, b: Int): Int = {
@@ -115,6 +118,15 @@ object Method {
 
     name + "'s age is " + result
   }
+
+  // 函数嵌套
+  def nestMethod(name: String, age: Int):(String)=>String ={
+    def fun(gender: String): String={
+      "name : " + name + ", age : " + age + ", gender : " + gender
+    }
+    fun
+  }
+
 
 
 }
