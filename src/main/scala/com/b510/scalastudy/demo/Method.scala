@@ -45,6 +45,8 @@ object Method {
     // 嵌套函数
     println(nestMethod("Tom", 12)("M")) // name : Tom, age : 12, gender : M
 
+    // 柯里化函数
+    println(myMethod("Tom", 12)("M")) // name : Tom, age : 12, gender : M
   }
 
   def max(a: Int, b: Int): Int = {
@@ -120,13 +122,17 @@ object Method {
   }
 
   // 函数嵌套
-  def nestMethod(name: String, age: Int):(String)=>String ={
-    def fun(gender: String): String={
+  def nestMethod(name: String, age: Int): (String) => String = {
+    def fun(gender: String): String = {
       "name : " + name + ", age : " + age + ", gender : " + gender
     }
+
     fun
   }
 
-
+  //柯里化函数
+  def myMethod(name: String, age: Int)(gender: String): String = {
+    "name : " + name + ", age : " + age + ", gender : " + gender
+  }
 
 }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4961156b-a3ea-405e-b2ae-915c669b6311" name="Default Changelist" comment="伴生类和伴生对象">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/Method.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/Method.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/Method.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+            <state relative-caret-position="316">
+              <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -98,9 +97,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="x" value="722" />
+    <option name="width" value="718" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -490,7 +489,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="668" y="0" width="772" height="900" extended-state="6" />
+    <frame x="722" y="0" width="718" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.252" />
@@ -648,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/Method.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="45" column="75" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="75" />
+        <state relative-caret-position="316">
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
         </state>
       </provider>
     </entry>
