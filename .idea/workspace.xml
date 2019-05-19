@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4961156b-a3ea-405e-b2ae-915c669b6311" name="Default Changelist" comment="伴生类和伴生对象">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/TraitDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CaseClass.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,24 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ForLoop.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/Method.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="135" column="3" selection-start-line="135" selection-start-column="3" selection-end-line="135" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/StringDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,11 +70,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/TraitDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ClassDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CaseClass.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -145,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/MapDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/TupleDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/TraitDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CaseClass.scala" />
       </list>
     </option>
   </component>
@@ -390,9 +391,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TraitDemo">
-    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.b510.scalastudy.demo.ArrayDemo" />
+  <component name="RunManager" selected="Application.CaseClass">
+    <configuration name="CaseClass" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.b510.scalastudy.demo.CaseClass" />
       <module name="scala2_study" />
       <extension name="coverage">
         <pattern>
@@ -458,11 +459,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CaseClass" />
         <item itemvalue="Application.TraitDemo" />
         <item itemvalue="Application.TupleDemo" />
         <item itemvalue="Application.MapDemo" />
         <item itemvalue="Application.SetDemo" />
-        <item itemvalue="Application.ArrayDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -539,10 +540,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="496" y="0" width="944" height="900" extended-state="6" />
+    <frame x="754" y="0" width="686" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13968958" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26863354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -657,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ClassDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -741,6 +735,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ClassDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CaseClass.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
