@@ -2,7 +2,7 @@ package com.b510.scalastudy.demo
 
 /**
   * 类似于java里面的String
-  * 
+  *
   * @author Hongten
   * @date 18/05/2019
   */
