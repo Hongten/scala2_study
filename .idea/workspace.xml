@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4961156b-a3ea-405e-b2ae-915c669b6311" name="Default Changelist" comment="伴生类和伴生对象">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CaseClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_cli_commons_cli_1_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CommonsCliDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scala2_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala2_study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,24 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/StringDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ArrayDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/SetDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/TraitDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -83,16 +70,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ClassDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CaseClass.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -100,8 +87,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CommonsCliDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding>
+                <element signature="e#35#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.4-sources.jar!/org/apache/commons/cli/Options.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -146,22 +154,41 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/TupleDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/TraitDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CaseClass.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CommonsCliDemo.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="722" />
-    <option name="width" value="718" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scala2_study" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scala2_study" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="scala2_study" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scala2_study" type="616d4139:PackageViewModuleNode" />
+              <item name="com.b510.scalastudy.demo" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -345,21 +372,28 @@
               <item name="scala2_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="scala2_study" type="58d84e3e:PackageViewProjectNode" />
-              <item name="scala2_study" type="616d4139:PackageViewModuleNode" />
+              <item name="scala2_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: commons-cli:commons-cli:1.4:jar" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="scala2_study" type="58d84e3e:PackageViewProjectNode" />
-              <item name="scala2_study" type="616d4139:PackageViewModuleNode" />
-              <item name="com.b510.scalastudy.demo" type="1f31426a:PackageElementNode" />
+              <item name="scala2_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: commons-cli:commons-cli:1.4:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-cli-1.4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala2_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: commons-cli:commons-cli:1.4:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-cli-1.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala2_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sbt: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -372,7 +406,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -391,7 +425,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CaseClass">
+  <component name="RunManager" selected="Application.CommonsCliDemo">
     <configuration name="CaseClass" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.b510.scalastudy.demo.CaseClass" />
       <module name="scala2_study" />
@@ -405,9 +439,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.b510.scalastudy.demo.MapDemo" />
+    <configuration name="CommonsCliDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.b510.scalastudy.demo.CommonsCliDemo" />
       <module name="scala2_study" />
+      <option name="PROGRAM_PARAMETERS" value="-t now -f conf/test.db" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.b510.scalastudy.demo.*" />
@@ -418,8 +453,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.b510.scalastudy.demo.SetDemo" />
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.b510.scalastudy.demo.MapDemo" />
       <module name="scala2_study" />
       <extension name="coverage">
         <pattern>
@@ -457,13 +492,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CaseClass" />
+      <item itemvalue="Application.CommonsCliDemo" />
+      <item itemvalue="Application.MapDemo" />
+      <item itemvalue="Application.TraitDemo" />
+      <item itemvalue="Application.TupleDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommonsCliDemo" />
         <item itemvalue="Application.CaseClass" />
         <item itemvalue="Application.TraitDemo" />
         <item itemvalue="Application.TupleDemo" />
         <item itemvalue="Application.MapDemo" />
-        <item itemvalue="Application.SetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +536,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="1059700694" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3936740259" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
       </map>
     </option>
@@ -503,6 +545,9 @@
         <entry key="$PROJECT_DIR$/../spark2.0-examples" value="PREVIEW" />
       </map>
     </option>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="dontShowConversionDialog" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -540,10 +585,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="0" width="686" height="900" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26863354" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29685265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -552,7 +597,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33975902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33900708" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,7 +607,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.42411348" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32765958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -689,24 +734,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ObjectClass.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ArrayDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="195">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -734,21 +765,52 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/TraitDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ClassDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CaseClass.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/ObjectClass.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.4-sources.jar!/org/apache/commons/cli/Options.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/b510/scalastudy/demo/CommonsCliDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#35#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
